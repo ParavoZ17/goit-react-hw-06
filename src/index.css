@@ -1,3 +1,4 @@
+@import 'modern-normalize/modern-normalize.css';
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +12,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+li, ul, img, a, p {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 a {
